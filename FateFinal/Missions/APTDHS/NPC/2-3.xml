@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="2.4">
+  <goals>
+    
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <posting title="揭穿伪装" requireRank="0" >
+  Kaguya，和我一起检举某人的一些行为，这段时间辛苦你了。
+</posting>
+  <email>
+    <sender></sender>
+    <subject></subject>
+    <body>
+      </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

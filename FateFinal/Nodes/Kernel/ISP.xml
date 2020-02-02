@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ISP"
+          name="ISP 网络服务"
+          ip="148.69.156.80"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="4" />
+  <ports>80, 22, 6881, 21</ports>
+  <portRemap>80=8080</portRemap>
+  <trace time="75" />
+  <admin type="progess" />
+  <ispSystem />  
+</Computer>

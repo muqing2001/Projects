@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="4.x">
+  <goals>
+    <goal type="filedeletion" target="KittoPC" file="Timekill.exe" path="bin"/>
+    <goal type="clearfolder" target="KittoPC" path="Tools"/>
+    <goal type="clearfolder" target="KittoPC" path="sys"/>
+    <goal type="clearfolder" target="KittoGateway" path="Tools"/>
+    <goal type="clearfolder" target="KittoGateway" path="sys"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/APTDHS/4END.xml</missionEnd> 
+  <nextMission>NONE</nextMission>
+  <posting title="修复网关" requireRank="0" >
+  一位黑客需要你帮忙修复他的计算机
+</posting>
+  <email>
+    <sender>Eric</sender>
+    <subject>修复网关</subject>
+    <body>
+      你好，#PLAYERNAME#，一位黑客向我们发出请求。大致意思是他的计算机被黑客攻击，但是他现在在忙一些事情，没有时间去修复。你只需要把攻击源头找出来，并将东西清理掉，如果可以，删除x-server.sys也没事。</body>
+    <attachments>
+    <link comp="KittoPC" />
+    </attachments>
+  </email>
+</mission>

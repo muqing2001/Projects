@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="JackGateway" name="Jack 个人电脑"  allowsDefaultBootModule="false" icon="laptop" type="1" >
+
+<adminPass pass="rhfggfuduuad" />
+<account username="Jack" password="7945bguyqwnjdyu" type="ADMIN" />
+
+<ports>21, 22, 25, 6881</ports>
+<portRemap>21=24,6881=6883</portRemap>
+<proxy time="1" />
+<portsForCrack val="2" />
+<trace time="95" />
+<firewall level="3" solution="JackGateway" additionalTime="0.5"/>
+<CustomConnectDisplayDaemon />
+<eosDevice name="Jack's Ephone11" id="JackEphone11" icon="ePhone2" empty="true" passOverride="Alpine">
+    <mail username="Jack" pass="JackSixSixSix" />
+    <file path="eos/test" name="crackedMe.exe">1</file>
+  </eosDevice>
+<file path="home" name="Crack.me">4f67 6753 0002 0000 0000 0000 0000 692c
+387a 0000 0000 58fe 74ed 011e 0176 6f72
+6269 7300 0000 0002 44ac 0000 0000 0000
+0000 0000 0000 0000 bb01 4f67 6753 0000
+0000 0000 0000 0000 692c 387a 0100 0000
+c914 dedf 0e36 ffff ffff ffff ffff ffff
+ffff b603 766f 7262 6973 0d00 0000 4c61
+7666 3535 2e31 392e 3130 3001 0000 0015
+0000 0065 6e63 6f64 6572 3d4c 6176 6635
+352e 3139 2e31 3030 0105 766f 7262 6973
+1c42 4356 0200 1000 0084 749a 59aa 0122
+cc40 8681 d090 9500 0002 0000 6084 220c
+3120 3464 2500 0010 0000 2086 9283 6842
+6bce 37e7 3868 9683 a652 6c4e 0727 526d
+9ee4 a662 6ece 39e7 9c73 b239 678c 73ce
+39a7 2867 1683 6642 6bce 3927 3168 9682
+6642 6bce 39e7 496c 1eb4 a64a 6bce 3967
+9c73 3a18 6784 71ce 39a7 496b 1ea4 6663
+6dce 3967 416b 9aa3 e652 6cce 3927 526e
+9ed4 e652 6dce 39e7 9c73 ce39 e79c 73ce
+39a7 7a71 3a07 e784 73ce 3927 6a6f aee5
+2674 71ce 39e7 9371 ba37 2784 73ce 39e7</file>
+
+<file path="sys" name= "eos-2017-29.log">
+EOS设备自动生成的备份日志</file>
+</Computer>

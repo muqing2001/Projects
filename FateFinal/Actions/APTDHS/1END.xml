@@ -1,0 +1,16 @@
+<ConditionalActions>
+ <OnConnect target="APTDHS">
+<RunFunction FunctionName="setAssetServer:APTDrop" FunctionValue="1" />
+<RunFunction FunctionName="setHubServer:APTDHS" />
+<RunFunction FunctionName="playCustomSong:Musics/Mabanua - Megalobox.ogg" FunctionValue="1" />
+<ChangeAlertIcon Target="APTDHS" Type="irchub" DelayHost="SuperDataIRC" Delay="1.0"/>
+<AddIRCMessage Author="Eric" TargetComp="APTDHS" Delay="4">进展如何？@#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="APTDHS" Delay="8">已经下载并上传到共享服务器，不过这个文件的加密方式……</AddIRCMessage>
+<AddIRCMessage Author="Eric" TargetComp="APTDHS" Delay="11">好的，没问题，@Luss，关于解密这一块就交给你了</AddIRCMessage>
+<AddIRCMessage Author="Luss" TargetComp="APTDHS" Delay="14">收到~~</AddIRCMessage>
+<AddMissionToHubServer MissionFilepath="Missions/APTDHS/2.xml" TargetComp="APTDHS" />
+<AddMissionToHubServer MissionFilepath="Missions/APTDHS/NPC/2-1.xml" TargetComp="APTDHS" AssignmentTag="Pitiedwzr" />
+<AddMissionToHubServer MissionFilepath="Missions/APTDHS/NPC/2-2.xml" TargetComp="APTDHS" AssignmentTag="Luss" />
+<AddMissionToHubServer MissionFilepath="Missions/APTDHS/NPC/2-3.xml" TargetComp="APTDHS" AssignmentTag="Kaguya" />
+</OnConnect>
+</ConditionalActions>

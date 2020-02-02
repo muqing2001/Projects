@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="5.x">
+  <goals>
+
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="到线下去帮忙" requireRank="0" >
+  #被APT-DHS标记为重要#
+</posting>
+  <email>
+    <sender>重要任务</sender>
+    <subject>在线下配合我进行社工</subject>
+    <body></body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="4.3">
+  <goals>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <posting title="伪装" requireRank="0" >
+  Kaguya，帮我把这段代码加密一下，然后捆绑在一个软件里
+</posting>
+  <email>
+    <sender></sender>
+    <subject></subject>
+    <body>
+      </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

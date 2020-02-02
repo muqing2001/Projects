@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission">
+  <goals>
+    <goal type="fileupload" target="SPWB" file="AngelSworld.axe" path="home" destTarget="APTDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/WelComeMission.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Anonymouns</sender>
+    <subject>Accet Project Team --邀请</subject>
+    <body>
+      Dear---给您的一封信.
+      #PLAYERNAME#，AccetProjectTeam组织向您发来了一张邀请函，你的任务目标是下载一份加密后的文档然后上传至我们的共享服务器中，不着痕迹的完成任务，节点如下：
+      --Good Luck.
+</body>
+    <attachments>
+      <link comp="APTDrop" />
+      <link comp="SPWB"/>
+    </attachments>
+  </email>
+</mission>

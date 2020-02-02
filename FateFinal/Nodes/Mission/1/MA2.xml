@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MA2" name="Mark 项目中心"  ip="147.80.26.4" allowsDefaultBootModule="false" icon="DLCServer" type="1" >
+
+<adminPass pass="MarkGateway" />
+
+<ports>21,6881,80,1433</ports>
+<portRemap>6881=1985,21=1499</portRemap>
+<proxy time="1" />
+<portsForCrack val="2" />
+<trace time="65" />
+<firewall level="4" solution="MarkGateway" additionalTime="0.5"/>
+<CustomConnectDisplayDaemon />
+
+<file path="home" name="Server.txt">为了安全起见，我把我的项目已经放在我的网关上了，它的IP是：147.80.43.87</file>
+</Computer>

@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="1.x">
+  <goals>
+    <goal type="fileupload" target="Macfee03" file="2016-08-12Project.doc" path="home" destTarget="APTDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/APTDHS/1END.xml</missionEnd> 
+  <nextMission>NONE</nextMission>
+  <posting title="获取一份机密文件" requireRank="0" >
+  我们需要一份加密的工程项目文档，下载下来，上传到服务器中
+</posting>
+  <email>
+    <sender>Eric</sender>
+    <subject>获取一份工程项目文件</subject>
+    <body>
+      你好，#PLAYERNAME#，我们需要你帮忙进入Macfee的数据中心把一份加密后的工程文档下载下来，它对我们很重要，这份文档应该标注着修改日期，你只需要将它下载下来然后上传到共享服务器中就行。</body>
+    <attachments>
+      <link comp="Macfee01" />
+    </attachments>
+  </email>
+</mission>

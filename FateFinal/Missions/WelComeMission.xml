@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="WelcomeMission" activeCheck="true">
+  <goals>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Anonymouns</sender>
+    <subject>Accet Project Team --恭喜</subject>
+    <body>
+      你好，#PLAYERNAME#，你现在可以到DHS里看看了，在此之前，你可以去共享服务器中获取一些可以用到的工具。
+      --Good Luck.
+</body>
+    <attachments>
+      <link comp="APTDHS" />
+      <link comp="APTDrop" />
+       <account comp="APTDrop" user="admin" pass="APT" />
+    </attachments>
+  </email>
+</mission>

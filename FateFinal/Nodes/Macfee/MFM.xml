@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MFM" 
+          name="Macfee邮箱服务器" 
+          allowsDefaultBootModule="true"
+          ip="31.25.697.281"
+          security="2"
+		  icon="dlcpc1"
+          type="1" > 
+  <adminPass pass="45t45J893y790" />
+    <portsForCrack val="99999" />
+ <ports>22, 21, 25, 443, 554,6881</ports>
+  <trace time="40" />
+
+
+   <portRemap>22=1024,6881=6882</portRemap>
+
+  <account username="Jack" password="JackSixSixSix" type="MAIL" />
+  
+  
+  
+  <mailServer name="Macfee 邮箱" color="234,156,25" generateJunk="true">
+     
+	 <email recipient="Jack" sender="Macfee@Jack1.com" subject="数据中心密码记录">
+     为了防止我把数据中心的管理员登陆密码忘记，我在这个邮件将它记录下来：MacfeeDataAdmin --Jack留
+     </email>
+
+
+  </mailServer>  
+  
+</Computer>

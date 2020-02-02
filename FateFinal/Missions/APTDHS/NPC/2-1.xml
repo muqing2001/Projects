@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="2.2">
+  <goals>
+    
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <posting title="需要一个密码" requireRank="0" >
+  Pitiedwzr，我们急需一个服务器的登陆密码，交给你了，不会让我失望的吧？
+</posting>
+  <email>
+    <sender></sender>
+    <subject></subject>
+    <body>
+      </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

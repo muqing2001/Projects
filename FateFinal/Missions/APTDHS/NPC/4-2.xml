@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="4.2">
+  <goals>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <posting title="调查一家网络安全公司" requireRank="0" >
+  这个任务有点复杂，Luss，你只需要将IP地址回复给我就可以
+</posting>
+  <email>
+    <sender></sender>
+    <subject></subject>
+    <body>
+      </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

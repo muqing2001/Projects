@@ -1,0 +1,160 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MA3" name="Mark 网关"  ip="147.80.43.87" allowsDefaultBootModule="false" icon="DLCPC1" type="1" >
+
+<adminPass pass="MarkGateway" />
+
+<ports>21,6881,80,1433</ports>
+<portRemap>6881=1985,21=1499</portRemap>
+<proxy time="1" />
+<portsForCrack val="2" />
+<trace time="50" />
+<firewall level="4" solution="MarkGateway" additionalTime="0.5"/>
+<CustomConnectDisplayDaemon />
+
+<file path="home/Project" name="sqlmap.zip">
+8b15 88c5 7abf 7bad 6b20 daa5 1059 578a
+0bce d1df 4eed ecd5 9756 fc78 c320 e24f
+4fdc e92e 16f8 ad67 ada8 d03e 6eaa 1feb
+a3d0 0f73 0a1b 0517 0b72 4112 5cdc 65bd
+6f51 5c60 d8db 04ae 5b5c 3d21 0e18 fb2e
+ac43 7ded 0cf2 dece b9ab 995f 3752 84fb
+b26f 5873 cb4d 9caf c5ce 8b45 a291 8b8b
+88f8 05ba 4a98 a358 079d 24a5 7c33 6174
+2184 8270 1668 cb84 784a 0eaa c6a0 a478
+0929 0e21 e4d8 f13f 0000 00c0 b738 94fb
+f1f6 fa70 1f1f eefe f4f3 e169 9711 d791
+f30f ffe2 e378 f870 63fe f1fb d3bc 7cfc
+743d 372c 0ff3 79c4 7c3f 3f1e 5a3d e261
+3de6 c3fc 9be1 f9d3 a70f ffe1 1fb7 c7c7
+c7f9 dc3c 5a9f 1e89 2e73 efe7 f39d 6fe6
+e118 8770 2c1e c7c3 e421 467b 3e8e 2765
+1973 e35c 508c 2f29 1e68 59e2 b136 cca8
+d160 bc73 c4f0 e261 1fda e6c5 3c3b 954a
+8515 954a a54a 8c87 c979 b8fe f8ea bb87
+a5cb c7fb 058b 88a2 f771 9913 c3f3 58f1
+de5d 3d8e d12f f1ef 92d2 fea2 b378 79d6
+eae3 98aa 5db2 56ae bb39 b4e0 4e73 4c90
+6883 97fe 4df4 3974 d1d8 072e df7e fded
+6e77 0693 da3d c6bf e398 5f77 f4b9 3fe5
+743b bb57 68ef 6c7f 6d7c 3b9d 6ca4 1f9f
+beb0 f7fe 7ab1 c2e2 2b31 d7ad 8db5 d42c
+d3df 1fa3 0e3b 6de8 9eeb f48e 7983 dd71
+36da ab23 e3de 513b 8a1c 3d9a ce97 7e09
+9343 657e eff2 b6e5 170c fb6b c6ad 32de
+3db8 40c6 3b46 1bc3 17fe 5ab2 d2ff ad17
+1b71 edd1 8a4e 0e4d b077 e4f2 b4cb 465b
+6f57 c81f 6ff8 f3cf 9757 cef3 d952 7a7a
+3b6f fdfc 5d67 f4d1 f3f3 fef0 e313 1e8f
+f44d d77b 6a3d faba 373c 5faf a6fa 8f53
+cf7b cf7a 5c78 7bab 668f a7fe 38e7 54bf
+6947 48d9 2db9 f5a0 f260 ab6f 68a9 9c7b
+200f 34ca 207a ff33 6f72 964f d9bb bfae
+f36f cff5 67ab df78 f7d6 c8b3 46ab 0781
+69b7 3d13 ed75 dff1 7efe 7e84 6ae3 eddf
+eff3 8dcf 2929 1a83 81c9 372a aedf 0bed
+6608 fda6 ced9 5ef8 78e1 f45f 5bb9 acdf
+abaa 66fa cf84 f4f2 10dd b5f7 db8f 97de
+dacb 5b77 e5cb bf5d ce37 5b6f 6f6d 69f0
+dee4 2219 b4ee f73c e17a 2c86 db2e 9d2c
+62f9 6b17 298a cb9b f438 5f31 d923 b802
+5030 181b 1bbc df72 efef aa06 712d 6bdf
+2562 89f3 2632 4ba8 5208 58d2 ae14 35fb
+53b6 84dd 7110 d25e 2fac 4df2 242e 1bcc
+3012 be4c 88a7 e442 8518 8310 e225 4c3d
+8451 4628 6354 8602 1c65 902a 8490 84a0
+4708 c70a 3bca 18ff 0300 0000 fc01 0094
+bf7e b8f9 87bf ff69 1c7e fb6f ede7 eba2
+f52d f787 fb98 f387 8fc5 a1cf d7b1 3fcc
+3fdc 7c3e 9fc7 a167 ac0f 37ff f4ee f7c3
+3fbe f8f5 2fef 7b3e 2f1f f6da 29e6 e3c3
+ffba 97f9 7a38 9acf e7df c7f0 d4de f37c
+e8db 5ad6 637c 8cc7 315f c32e cc73 5d8b
+eee5 69de 8e15 7e8e b5f7 ca39 0f9e 8acf
+ba08 5cf3 27fc ec73 961c bddc c614 9f50
+934a 5329 a052 895c deb6 97fd 71e2 f13e
+3296 e558 72ef 5cee 1f73 59c4 b587 709f
+cbb2 58e4 e20f c50e 3abf 93fc 755a dba2
+66c6 fef7 9dc7 3b10 acc9 6f5e 15cf b865
+70d3 b4de b9bc 7dbb a7a3 e3d9 f6de 31e2
+e79d 9a5e 76bc b16e a53c a492 d1b5 b775
+83e9 e61b 7b05 ed12 9e4f 7c5a f4a0 fc5d
+35bb 37de 0f39 7dec eea7 a779 375d db95
+ebbb c31e 7dfd c8d9 fd34 b53d 6fde f442
+f47a f805 cbab b88c 93fd c1ee 4e82 31d4
+9345 27bd 01a7 1773 f2c9 ca8d f707 6fea
+e4d8 4933 ff14 37b6 f6e9 d29e e5c3 74b2
+39b9 eed9 0ab7 3468 e9bb 76f1 efa6 7177
+7ff7 dfe6 c75d 3f5b f9d4 e39e c71a 4def
+8f5f 479f cf7e 7bea 929d 2f8f b8f4 6aa5
+f7f7 0f3f 4c76 ffdc e0fe 5fce ceae 1c7b
+ab9e be77 7bfd 5f57 92ae de06 1efb 53b2
+f50f 31f9 ca79 3efb d0f6 f787 fd42 7ffd
+56ab 8bdf 7bdf fe5b 19dc 67f9 e061 0bef
+3dbf 386b db3f 6bb3 79ef 67e3 b3b3 683b
+5b07 035b d5c7 db5d 17bd 2d3f fbe1 a8b3
+a4b3 e041 b06e 63ce df2b f9f3 2b2f 76df
+55bd aedd 8fc6 6fed fdbc 9fd1 fb7a 0baf
+6ffe 3afa fd26 ec7e 7eef fb9f 991a 5a61
+8c7b cc73 5d33 d0cd d079 3dff edef 5b7b
+123f f2f3 7dfd 8345 2dbe bfee d39e 31ce
+eeef cbe9 ef9c aad7 cb8b 8bf0 5e7a 08af
+099a 0ec9 16f4 a2f0 7de9 c44f 1daf 73d7
+6ede bcbe 3dad 973d 3570 dde1 fa2c ad6c
+ce93 d9f6 9ab7 9237 69cd 1572 2fb9 8330
+5637 d1d2 f386 eeee 0190 18da ec45 b21b
+f336 f72d 8bd2 f02e e6e7 c616 ce29 243d
+4b43 6ab2 7b4f aba3 8979 9ae8 53b5 3e2d
+6fe1 b997 2207 0eaf 95bc b4f2 512c 2c5b
+9528 ee0f a4f3 dcae 7b50 1499 03ba 50bc
+4a19 5508 2d06 21b8 248a c628 2354 10c6
+6b29 8830 1621 a49c 8410 32a2 584c 4219
+a37f 0000 0080 1feb e9c3 fde5 0f0f 753f
+dcfa 6f65 f1f1 b01e 0000 bef1 97ad 56eb
+d3fe f07b 3f7d 3cfe 650f d6ea fb97 f5e1
+9f3f fdf7 5f73 e2a7 f9cf dfe3 f1e1 c5be
+bf56 ecf6 e3c3 73ce 1f6e 7dfe e38f 371f
+eee3 bb79 b4e3 30ff fe7c 7895 edf6 fcc1
+7cee b1ef e2b1 f78b 3d0e 073b f6a7 bed6
+f7fe eecb e37c c553 dff3 1cdb 5af3 6773
+7bf6 b01f 63cf df7a ce8d 5d7e b831 1f0f
+73f3 a701 4f8a 4cf1 a3e6 4ff0 bcef 2214
+3967 f72c 27a2 a954 2a95 4a65 b1dc 371f
+eff3 f030 49fb 7e9c fb25 17b9 e4da 7d26
+3436 db7e 8ead 8bde 36b7 7396 b771 b6d3
+33c6 3fc4 ae6d fcfd a767 4e72 862b 56d4
+3946 c94e 682b 38d9 94b5 ee7e 1565 4821
+a63d f471 d927 4663 d039 bb89 e68c e6c4
+50df 1d8f 11c2 ff75 ef72 b69a 3be8 7e21
+459d b5c7 b7e2 73fd 3254 ba62 4cba 4d18
+97dc 62cc 9576 fa2f f54a 0ca6 f1c5 3f63
+2a7e f354 22e9 2b59 612f 18cd 8d17 c3ce
+8b1f b7b3 b619 6f5a 7440 2e3e 95c1 9d6c
+1cbf d867 6fd7 8b59 1c6f ef47 59f5 df32
+eae5 a2e9 caa2 79b0 d1d3 ad8c f91c 2ae9
+7cb4 6986 673e a62b 3d73 67c9 ba5f 7fae
+5bf6 81e7 1d2b 5b6a 91f5 e9ef a9db b7c3
+c5f0 ba98 dff9 03df fcbc f1c2 b5b3 b7ea
+0f5c edde 87ed ed75 1eb4 dae5 9f52 edc4
+d9a3 fdcf d7ae 9cbd bdb5 f3f6 df67 6bdc
+dad9 bded d5b7 adf1 61e4 ee2b 8ffe f9c1
+d9f9 c6b1 979f db8c 8f6d 565a 5de5 8e64
+2afd 8c27 bedf 5dde 47b6 9fda e6f1 f373
+68eb eef3 f31d 9176 deda f9d2 fa9c abb4
+7374 793e 7076 564e de38 f6b2 d496 2efb
+d943 73f9 b1da 5c7d ecef df6b 6cfe f1c3
+b5d7 ef7b 577b be3f 361f 67fd 8f27 8379
+df4a faeb f774 8fe6 cdb9 e61f 2dcf b8fb
+77af bf67 588b 19fd 9635 8ed0 1b75 0f8f
+7abf bded f1e3 9cff 7e78 76b9 aad5 7c5e
+85b3 4d7f 7ca5 7073 ec82 2092 0cb5 f5f6
+e0cc 8bb3 5668 ad7b 1479 e4a7 2df5 35d7
+de35 93b7 9522 f36a 1eed dc04 51b4 a2ea
+aa7e fc62 dfab b8d9 efcd 79bd 368f 03f7
+fd8e d693 8df7 7bbd 49af d061 4f7d bf1f
+6d36 5359 9273 610b c6c4 76ba d7d9 7e25
+f7ce 395b b495 2243 1ed6 de84 17a7 1405
+b1df 1fdc 9359 fb7d 06be 548a 4d19 8450
+5210 8835 3508 5110 426d 2c84 18b9 5021
+e428 1127 843b 88d0 2823 fc0f 0000 00f0
+</file>
+</Computer>

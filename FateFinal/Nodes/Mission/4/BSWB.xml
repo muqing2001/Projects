@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="BSWB" name="BSUS_Web" allowsDefaultBootModule="true" ip="148.1.1.1" icon="DLCServer" type="1" >
+
+<adminPass pass="BSUS" />
+<account username="#PLAYERNAME#" password="BSUS" type="ADMIN" />
+
+<ports>21,22,6881,1433,192</ports>
+<PortsRemap>21=1444,6881=75902</PortsRemap>
+<proxy time="1" />
+<portsForCrack val="2" />
+<trace time="65" />
+<firewall level="4" solution="BSUS" additionalTime="0.5"/>
+<CustomConnectDisplayDaemon />
+ 
+<LogoCustomConnectDisplayDaemon logo="Web/BSUS/Image/BSUS_Web.png" title="Web/BSUS/Image/BSUS_Web.png" overdrawLogo="true" buttonAlignment="right" />
+<addWebServer name="BSUS" url="web\BSUS\BSUS_index.html" />
+<dlink target="BS001" />
+<dlink target="BS002" />
+<dlink target="Oren_PC" />
+<dlink target="BSMail" />
+<dlink target="BSWL" />
+</Computer>

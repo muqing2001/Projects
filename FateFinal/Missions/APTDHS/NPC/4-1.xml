@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="4.1">
+  <goals>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <posting title="网民请求" requireRank="0" >
+  一位网民想要实现科学上网，Pitiedwzr，没问题吧？
+</posting>
+  <email>
+    <sender></sender>
+    <subject></subject>
+    <body>
+      </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

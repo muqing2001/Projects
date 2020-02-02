@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="2.1">
+  <goals>
+     <goal type="fileupload" target="MA3" file="sqlmap.zip" path="home" destTarget="APTDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/APTDHS/2END.xml</missionEnd> 
+  <nextMission>NONE</nextMission>
+  <posting title="一个工具" requireRank="0" >
+  我们需要你帮委托人一个忙
+</posting>
+  <email>
+    <sender>Eric</sender>
+    <subject>获取一个工具</subject>
+    <body>
+      你好，#PLAYERNAME#，相信你也已经逐渐适应我们组织的气氛了吧？他们人都很不错。好了，说回正题，一名向我们求助的信息安全工作者说，他需要这个工具，不过他的系统是Linux，工具是Python写的，我猜得没错的话，工具应该是压缩过的，你需要将它下载下来且上传至共享服务器。对了，如果出现没有任何进展的情况，不妨试试解密。</body>
+    <attachments>
+      <link comp="MA1" />
+    </attachments>
+  </email>
+</mission>

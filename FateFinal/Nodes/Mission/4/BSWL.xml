@@ -1,0 +1,60 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="BSWL" name="BSUS_白名单_验证器" security="5" type="4" icon="DLCServer" >
+
+  <!-- This server is part of the security system the external contractors "Psylance" put in place
+  Connections to the critical servers (Bookings mainframe, mail, and this one) are automatically denied
+  unless they're on the whitelist, hosted on this server.
+  
+  Shortly after the player gets here, Coel or Default will work their magic to disable it.
+  Alt plan is to add the team's IP's to the list, but that involves a lot of extras
+  (making comps for Coel/default if the player follows the lead, scan being less elegant,
+  someone needing to delete those entries after mission is over. Desirables, if I have time)
+  
+  This means that this computer contains a list of external IPs of employee home computers that can access it.
+  Scanning will reveal all of these, as a shortcut.
+  
+  It should contain a few technical documents explaining what it does, and a few notes from the Psylance staff about
+  people who want access etc, and a copy+paste message they can use to deny people.
+  -->
+  
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="55" />
+  <portsForCrack val="2" />
+  <ports>21, 6881, 192</ports>
+  <portRemap>6881=15430</portRemap>
+  <admin type="progress"/>
+
+  <tracker />
+
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+  
+<file path="BSUSlist" name="whitelist.txt">
+223.199.25.106
+60.167.22.89  
+60.13.42.242
+1.196.177.77
+114.225.246.40
+  </file>
+
+
+  <file path="home" name="general.txt">本服务器是BSUS的垂直集成安全系统中必不可少的部分，其功能在于阻止在未授权情况下连接到你的基础设施中选定的关键部分。</file>
+  
+  <file path="home" name="connection_autodeny_draft.txt">拒绝连接。原因：不在白名单中
+如果你认为本提示有误，请使用此处的内置电子邮件联系你的Psylance认证管理员。
+备注：由phylance运行</file>
+
+  <file path="home/requests" name="denial_template.txt">你好*此处加入姓名*
+感谢你申请访问该服务器。
+不幸的是，本机器的访问权限有严格限制。你希望访问它的原因并未达到让你进入白名单的基本要求。
+如果你认为我们遗漏了重要信息，或误发了本信息，请联系BSUS认证管理员：*此处加入邮箱地址*。</file>
+
+  <file path="home/requests" name="rq_g.txt">登录：拒绝
+备注：已知与不对节点访问权负责</file>
+
+  <file path="home/requests" name="rq_n.txt">登录：接受
+备注：团队重要成员，对访问权很重要，已知值得信任</file>
+
+  <file path="home/requests" name="rq_test.txt">你好，我的名字叫某某，处于某某原因我需要连接。请让我进去，我很孤单。</file>
+  
+</Computer>

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MA1" name="MARK 作战基地"  allowsDefaultBootModule="false" type="1" >
+
+<adminPass pass="MarkGateway" />
+
+<ports>21,6881,80,1433</ports>
+<portRemap>6881=1985,21=1499</portRemap>
+<proxy time="1" />
+<portsForCrack val="2" />
+<trace time="65" />
+<firewall level="4" solution="MarkGateway" additionalTime="0.5"/>
+<CustomConnectDisplayDaemon />
+<Memory>
+    <Commands>
+      <Command>connect 147.80.26.4</Command>
+      <Command>ls /wwwroot</Command>
+      <Command>rm *.home</Command>
+      <Command>rm *.log</Command>
+      <Command>Disconnect</Command>
+    </Commands>
+    <Data>
+    </Data>
+    <Images>
+      <Image></Image>
+    </Images>
+  </Memory>
+</Computer>

@@ -1,0 +1,31 @@
+<ConditionalActions>
+<ConditionalActions>
+<OnConnect target="APTDHS">
+<RunFunction FunctionName="setAssetServer:APTDrop" FunctionValue="1" />
+<RunFunction FunctionName="setHubServer:APTDHS" />
+<ChangeAlertIcon Target="APTDHS" Type="irchub" DelayHost="SuperDataIRC" Delay="1.0"/>
+<AddIRCMessage Author="Eric" TargetComp="APTDHS" Delay="3">下面，我要给大家说明一个紧急任务。</AddIRCMessage>
+<AddIRCMessage Author="Eric" TargetComp="APTDHS" Delay="5">因为SuperData，他们即将发布自己编写的渗透测试的框架，虽然这本来和我就没有什么关系。</AddIRCMessage>
+<RunFunction FunctionName="playCustomSong:Musics/XJZZ - Tough Decision.ogg" FunctionValue="1" />
+<AddIRCMessage Author="Eric" TargetComp="APTDHS" Delay="8">
+但是，由于我一次好奇，我试着逆向分析Angelsworld公布的部分源代码，发现里面居然有一段控制计算机的恶意代码。虽然它藏得很深，很深……</AddIRCMessage>
+<AddIRCMessage Author="Eric" TargetComp="APTDHS" Delay="12">所以，我决定创立APT，去阻止这次事件的发生。</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="APTDHS" Delay="15">记得SuperData和EnTech也有过合作吧？</AddIRCMessage>
+<AddIRCMessage Author="Eric" TargetComp="APTDHS" Delay="18">对，之后我让你@Kaguya调查的那架飞机，黑匣子还在吧？</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="APTDHS" Delay="21">在</AddIRCMessage>
+<AddIRCMessage Author="Eric" TargetComp="APTDHS" Delay="23">我们分为两组进行调查，A组：Luss和我，B组：Kaguya、Pitiedwzr、还有#PLAYERNAME#。没问题吧，各位？拜托了！</AddIRCMessage>
+<AddIRCMessage Author="Pitiewzr" TargetComp="APTDHS" Delay="27">收到，</AddIRCMessage>
+<AddIRCMessage Author="Luss" TargetComp="APTDHS" Delay="29">收到，</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="APTDHS" Delay="32">收到，</AddIRCMessage>
+<AddIRCMessage Author="Eric" TargetComp="APTDHS" Delay="28">B组，你们的地址:</AddIRCMessage>
+<AddIRCMessage Author="Eric" TargetComp="APTDHS" Delay="28">!ATTACHMENT:link#%#BSUS_Web#%#148.1.1.1</AddIRCMessage>
+<AddIRCMessage Author="Eric" TargetComp="APTDHS" Delay="31">对了，Kaguya，你最好在线下找一个合适的地方，准备接应我。</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="APTDHS" Delay="32">没问题</AddIRCMessage>
+
+<AddMissionToHubServer MissionFilepath="Missions/APTDHS/5.xml" TargetComp="APTDHS" />
+<AddMissionToHubServer MissionFilepath="Missions/APTDHS/NPC/5-1.xml" TargetComp="APTDHS" AssignmentTag="Pitiedwzr"/>
+<AddMissionToHubServer MissionFilepath="Missions/APTDHS/NPC/5-2.xml" TargetComp="APTDHS" AssignmentTag="Luss"/>
+<AddMissionToHubServer MissionFilepath="Missions/APTDHS/NPC/5-3.xml" TargetComp="APTDHS" AssignmentTag="Kaguya"/>
+<AddMissionToHubServer MissionFilepath="Missions/APTDHS/NPC/5-5.xml" TargetComp="APTDHS" AssignmentTag="Eric"/>
+</OnConnect>
+</ConditionalActions>

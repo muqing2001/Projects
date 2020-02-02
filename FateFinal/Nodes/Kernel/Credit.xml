@@ -1,0 +1,59 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Credit" 
+          name="Credit" 
+          security="0"
+          allowsDefaultBootModule="true"
+          icon="chip" 
+          type="1" > 
+
+  <portsForCrack val="0" />
+  <ports>443, 22, 6881, 554, 21, 80, 1433, 25</ports>
+  <portRemap>22=2998, 6881=1234</portRemap>
+  <trace time="-1" />
+ <file path="home" name="CreditsData.txt"> 
+  %---  Fate Final  ---
+
+^Hacknet的制作者:
+
+Matt Trobbiani
+
+^一些帮助过我的人：
+Err0r233
+Pitiedwzr
+
+^剧情灵感：
+
+Mu_Qing（也是Miatcoix）
+
+^程序设计：
+
+Submit Text 3
+
+^关卡设计：
+
+Mu_Qing（也是Miatcoix）
+
+^音乐：
+Hacknet OST
+Bring Back The Summer--Not Your Dope
+Link--Jim Yosef
+Megalobox--Mabanua
+Smash It Up--Various Artists
+
+^X-server.sys制作者：
+Mu_Qing（也是Miatcoix）
+
+^扩展联动：
+TEK
+
+^重要提示：
+本扩展支持给扩展作者进行参考
+但并不是抄袭
+
+https://www.sshcrack.com --Miatcoix
+</file>
+<file path="home" name="AboutMe.txt">
+虽然一个人做了那么多的东西，但我还是有一种成就感。在此还是要感谢我在制作扩展的路上帮助过我的人，他们分别是Err0r233，Pitiedwzr，感谢，真的很感谢他们，可以说没有他们就没有今天的我。不过，这里没有彩蛋，HAHA！--Miatcoix留</file>
+<file path="sys" name="eggshell.txt">
+你以为就这么结束了吗？Eric</file>
+</Computer>

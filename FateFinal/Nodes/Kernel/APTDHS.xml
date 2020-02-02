@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="APTDHS" 
+          name="Accet Project Team DHS" 
+          ip="2.2.2.2"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCPC2" 
+          type="1" > 
+		  
+<adminPass pass="APTcowforce" />
+  <portsForCrack val="6" />
+  <ports>22, 21, 6881, 443, 192</ports>
+   <DHSDaemon groupName="APTDHS" addsFactionPointOnMissionComplete="true" autoClearMissionsOnPlayerComplete="false" themeColor="102, 49, 161" allowContractAbbandon="false">
+    <agent name="#PLAYERNAME" color="85,107,47"/>
+    <agent name="Kaguya" color="210,180,140" />
+    <agent name="Luss" color="255,20,147" />
+    <agent name="Pitiedwzr" color="148,0,211" />
+    <agent name="Eric" color="248,248,255" />
+	</DHSDaemon>
+</Computer>

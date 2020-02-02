@@ -1,0 +1,15 @@
+<ConditionalActions>
+<OnConnect target="APTDHS">
+<RunFunction FunctionName="setAssetServer:APTDrop" FunctionValue="1" />
+<RunFunction FunctionName="setHubServer:APTDHS" />
+<ChangeAlertIcon Target="APTDHS" Type="irchub" DelayHost="SuperDataIRC" Delay="1.0"/>
+<AddAsset FileName="NetmapOrganizer.exe" FileContents="#NETMAP_ORGANIZER_EXE#" TargetComp="APTDrop" TargetFolderpath="bin" />
+<AddIRCMessage Author="Channel" TargetComp="APTDHS" Delay="8">*** 用户 Eric 上传了文件！ ***</AddIRCMessage>
+<AddIRCMessage Author="Eric" TargetComp="APTDHS" Delay="10">对了，为了避免出现节点太多容易混乱的情况，我上传了新的工具。记得查收，而且，我们团队的某人似乎有强迫症吧？</AddIRCMessage>
+<AddMissionToHubServer MissionFilepath="Missions/APTDHS/3.xml" TargetComp="APTDHS" />
+<AddMissionToHubServer MissionFilepath="Missions/APTDHS/NPC/3-1.xml" TargetComp="APTDHS" AssignmentTag="Pitiedwzr"/>
+<AddMissionToHubServer MissionFilepath="Missions/APTDHS/NPC/3-2.xml" TargetComp="APTDHS" AssignmentTag="Luss"/>
+<AddMissionToHubServer MissionFilepath="Missions/APTDHS/NPC/3-3.xml" TargetComp="APTDHS" AssignmentTag="Kaguya"/>
+
+</OnConnect>
+</ConditionalActions>

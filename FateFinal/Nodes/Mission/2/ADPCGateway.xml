@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="AdesenGateway" name="Adesen--网关" allowsDefaultBootModule="false" ip="77.84.126.23" icon="DLCPC2" type="1" >
+
+<adminPass pass="rhfggfuduuad" />
+<account username="#PLAYERNAME#" password="7945bguyqwnjdyu" type="ADMIN" />
+
+<ports>21, 22, 25, 80,1433,6881</ports>
+
+<proxy time="1" />
+<portsForCrack val="2" />
+<trace time="65" />
+<firewall level="4" solution="AdesenGateway" additionalTime="0.5"/>
+<CustomConnectDisplayDaemon />
+
+<file path="home" name="tools.doc">
+等我过段时间就把这些工具弄到手：
+
+Metasploit
+
+sqlmap
+
+Maltego
+
+Nmap
+
+Zenmap
+
+</file>
+<file path="home" name="notes.txt">
+最近被一个脚本小子黑了，我已经把它的x-server.sys删除了，不要再来烦我了。
+</file>
+</Computer>

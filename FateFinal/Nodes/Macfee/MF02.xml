@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Macfee02" name="Macfee 测试中心"  allowsDefaultBootModule="false" ip="8.8.8.888" icon="DLCServer"
+	type="1" >
+
+<adminPass pass="MacfeeTestAdmin" />
+<ports>21, 22, 25, 6881</ports>
+<proxy time="1" />
+<portsForCrack val="2" />
+<trace time="105" />
+<firewall level="5" solution="MacfeeTestAdmin" additionalTime="0.5"/>
+
+<file path="home" name="test.txt">测试中心</file>
+
+<dlink target="MFM" />
+<dlink target="Macfee03" />
+<dlink target="JackGateway" />
+</Computer>

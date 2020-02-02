@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="APTDrop"
+          name="Accet Project Team共享服务器"
+		  ip="2.2.2.1"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+<uploadServerDaemon name="AccetProjectTeam共享" folder="Drop"
+                    needsAuth="false" color="17,29,48" hasReturnViewButton="true"/>
+
+
+<adminPass pass="APT" /> 
+
+<ports>22, 21, 6881, 443</ports>
+  <proxy time="3" />
+  <portsForCrack val="7" />
+  <firewall level="-1" />
+  <trace time="95" />
+  <admin type="none"/>
+  <file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+  <file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+
+</Computer>

@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Macfee01" name="Macfee 网页服务器"  allowsDefaultBootModule="true" icon="DLCServer"
+	type="1" >
+
+<adminPass pass="MacfeeAdmin" /> 
+<ports>21, 22, 25, 6881</ports>
+<portRemap>21=24,6881=6883</portRemap>
+<proxy time="1" />
+<portsForCrack val="2" />
+<trace time="85" />
+<firewall level="5" solution="MacfeeAdmin" additionalTime="0.5"/>
+<CustomConnectDisplayDaemon />
+<addWebServer name="Macfee" url="web\Macfee\Macfee_index.html" />
+<Memory>
+    <Commands>
+      <Command>connect 8.8.8.888</Command>
+      <Command>rm *.home</Command>
+      <Command>rm *.log</Command>
+      <Command>Disconnect</Command>
+    </Commands>
+    <Data>
+    </Data>
+    <Images>
+      <Image>DLC/Sprites/Misc/DraculaTank</Image>
+    </Images>
+  </Memory>
+<file path="home" name="index.html">这个服务器是Macfee安全中心的网页服务器，你们这群白痴不要再把下载的文件放在这里了！</file>
+<file path="home" name="ip.txt">是谁让你们把测试服务器的IP地址放在这里的？为了安全起见，我已经把测试中心的服务器IP地址删除了，以后不要再这样做了！</file>
+</Computer>

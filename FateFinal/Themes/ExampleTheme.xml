@@ -1,0 +1,39 @@
+<CustomTheme>
+  <!-- This defines the layout of the windows. The valid choices are:
+  blue, green, white, mint, greencompact, riptide, colamaeleon and riptide2 - corresponding to the themes of those colors in the base game-->
+  <themeLayoutName>yellow</themeLayoutName>
+
+  <!-- This is a path to the background image file. It should be 1920x1080, and a .jpg or .png file.
+  If this is left out, the theme will automatically generate a dynamic background for the theme-->
+  <backgroundImagePath>Themes/Backgrounds/Floatvoid.png</backgroundImagePath>
+  
+ 
+  <defaultHighlightColor>174,199,194</defaultHighlightColor>
+  <defaultTopBarColor>32,36,35,180</defaultTopBarColor>
+  <warningColor>255,0,0</warningColor>
+
+  <shellColor>140,209,0</shellColor>
+  <shellButtonColor>111,60,194</shellButtonColor>
+
+  <moduleColorSolidDefault>174,199,194</moduleColorSolidDefault>
+  <moduleColorStrong>109,125,122</moduleColorStrong>
+  <moduleColorBacking>6,6,6,190</moduleColorBacking>
+
+  <displayModuleExtraLayerBackingColor>0,0,0,160</displayModuleExtraLayerBackingColor>
+  
+  <AFX_KeyboardMiddle>255,231,46</AFX_KeyboardMiddle>
+  <AFX_KeyboardOuter>0,0,0</AFX_KeyboardOuter>
+  <AFX_WordLogo>255,255,0</AFX_WordLogo>
+  <AFX_Other>111,60,194</AFX_Other>
+  
+  <thisComputerNode>140,209,0</thisComputerNode>
+
+  <exeModuleTopBar>32,36,35</exeModuleTopBar>
+  <exeModuleTitleText>110,110,110,50</exeModuleTitleText>
+
+  <lockedColor>105,0,0,200</lockedColor>
+  <brightLockedColor>140,0,0</brightLockedColor>
+  <brightUnlockedColor>141,212,0</brightUnlockedColor>
+  <unlockedColor>92,138,0</unlockedColor>
+
+</CustomTheme>

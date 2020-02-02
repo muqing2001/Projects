@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="BSWB" name="BSUS_Data" allowsDefaultBootModule="false" ip="148.1.1.2" icon="DLCServer" type="1" >
+
+<ports>21,22,6881,1433,192</ports>
+<PortRemap>21=1444,6881=75902</PortRemap>
+<proxy time="1" />
+<portsForCrack val="2" />
+<trace time="75" />
+<firewall level="4" solution="jfioerj9430r5029" additionalTime="15"/>
+<CustomConnectDisplayDaemon />
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+</Computer>

@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerBackup" name="BSICO 驱动" allowsDefaultBootModule="false" icon="chip"
+	type="1" >
+
+<ports>21, 22, 25, 80</ports>
+
+<portsForCrack val="0" />
+</Computer>

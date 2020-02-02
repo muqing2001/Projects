@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="31">
+  <goals>
+        <goal type="filedownload" target="AdesenPC" file="WatchDogsGame.rmvb" path="home"/>
+        <goal type="filedeletion" target="AdesenPC" file="WatchDogsGame.rmvb" path="home"/>
+        <goal type="fileupload" target="AdesenPC" file="WatchDogsGame.rmvb" path="home" destTarget="APTDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/APTDHS/3END.xml</missionEnd> 
+  <nextMission>NONE</nextMission>
+  <posting title="获取一份视频文件" requireRank="0" >
+  受理委托人的请求
+</posting>
+  <email>
+    <sender>Eric</sender>
+    <subject>获取视频文件</subject>
+    <body>
+      你好，#PLAYERNAME#，这个合同有些特殊，因为是委托人拜托我们帮助他窃取一份文件。虽然这样做有点不厚道，但我们就是靠这行吃饭的，委托人需要的文件大概是个视频文件，任务虽然简单，但也最好不要露出蛛丝马迹，不然小心会阴沟里翻船。记住：下载 删除 并上传。</body>
+    <attachments>
+    <link comp="AdesenPC" />
+    </attachments>
+  </email>
+</mission>

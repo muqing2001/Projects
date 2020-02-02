@@ -1,0 +1,108 @@
+Errors Found. Writing report to Extensions/Fate Final/report.txt
+
+Load Error:
+System.FormatException 
+ 
+COMPUTER LOAD ERROR:
+Error loading computer "Extensions/Fate Final/Nodes\Mission\1\MA3.xml" 
+Error: XmlException - Unexpected XML declaration. The XML declaration must be the first node in the
+document, and no white space characters are allowed to appear before it. Line 2, position 3.
+ 
+Source : Hacknet 
+ 
+System.FormatException: COMPUTER LOAD ERROR:
+Error loading computer "Extensions/Fate Final/Nodes\Mission\1\MA3.xml" 
+Error: XmlException - Unexpected XML declaration. The XML declaration must be the first node in the
+document, and no white space characters are allowed to appear before it. Line 2, position 3. --->
+System.Xml.XmlException: Unexpected XML declaration. The XML declaration must be the first node in
+the document, and no white space characters are allowed to appear before it. Line 2, position 3.
+
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e) 
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg) 
+   at System.Xml.XmlTextReaderImpl.ParsePI(StringBuilder piInDtdStringBuilder) 
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent() 
+   at System.Xml.XmlTextReaderImpl.Read() 
+   at Hacknet.ComputerLoader.loadComputer(String filename, Boolean preventAddingToNetmap, Boolean
+   preventInitDaemons)
+
+   at Hacknet.Computer.loadFromFile(String filename) 
+   at Hacknet.Extensions.ExtensionLoader.<>c__DisplayClass2.<LoadNewExtensionSession>b__0(String
+   filename)
+
+   --- End of inner exception stack trace --- 
+   at Hacknet.Extensions.ExtensionLoader.<>c__DisplayClass2.<LoadNewExtensionSession>b__0(String
+   filename)
+
+   at Hacknet.Utils.ActOnAllFilesRevursivley(String foldername, Action`1 FileAction) 
+   at Hacknet.Utils.ActOnAllFilesRevursivley(String foldername, Action`1 FileAction) 
+   at Hacknet.Utils.ActOnAllFilesRevursivley(String foldername, Action`1 FileAction) 
+   at Hacknet.Extensions.ExtensionLoader.LoadNewExtensionSession(ExtensionInfo info, Object os_obj) 
+   at Hacknet.OS.LoadContent() 
+   at Hacknet.ScreenManager.AddScreen(GameScreen screen, Nullable`1 controllingPlayer) 
+   at Hacknet.ScreenManager.AddScreen(GameScreen screen) 
+   at Hacknet.Misc.ExtensionTests.SetupOSForTests(String ActiveExtensionFoldername, ScreenManager
+   screenMan)
+
+   at Hacknet.Misc.ExtensionTests.TestExtensionForRuntime(ScreenManager screenMan, String path,
+   Int32& errorsAdded)
+ 
+Inner : --------------- 
+ 
+System.Xml.XmlException  
+      
+    Unexpected XML declaration. The XML declaration must be the first node in the document, and no 
+    white space characters are allowed to appear before it. Line 2, position 3. 
+      
+    Source : System.Xml  
+      
+    System.Xml.XmlException: Unexpected XML declaration. The XML declaration must be the first node in
+
+    the document, and no white space characters are allowed to appear before it. Line 2, position 3. 
+     
+       at System.Xml.XmlTextReaderImpl.Throw(Exception e)  
+       at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)  
+       at System.Xml.XmlTextReaderImpl.ParsePI(StringBuilder piInDtdStringBuilder)  
+       at System.Xml.XmlTextReaderImpl.ParseDocumentContent()  
+       at System.Xml.XmlTextReaderImpl.Read()  
+       at Hacknet.ComputerLoader.loadComputer(String filename, Boolean preventAddingToNetmap, Boolean
+       
+
+       preventInitDaemons) 
+     
+       at Hacknet.Computer.loadFromFile(String filename)  
+       at Hacknet.Extensions.ExtensionLoader.<>c__DisplayClass2.<LoadNewExtensionSession>b__0(String 
+       filename) 
+      
+      
+      
+       at System.Xml.XmlTextReaderImpl.Throw(Exception e)  
+       at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)  
+       at System.Xml.XmlTextReaderImpl.ParsePI(StringBuilder piInDtdStringBuilder)  
+       at System.Xml.XmlTextReaderImpl.ParseDocumentContent()  
+       at System.Xml.XmlTextReaderImpl.Read()  
+       at Hacknet.ComputerLoader.loadComputer(String filename, Boolean preventAddingToNetmap, Boolean
+       
+
+       preventInitDaemons) 
+     
+       at Hacknet.Computer.loadFromFile(String filename)  
+       at Hacknet.Extensions.ExtensionLoader.<>c__DisplayClass2.<LoadNewExtensionSession>b__0(String 
+       filename) 
+ 
+ 
+ 
+   at Hacknet.Extensions.ExtensionLoader.<>c__DisplayClass2.<LoadNewExtensionSession>b__0(String
+   filename)
+
+   at Hacknet.Utils.ActOnAllFilesRevursivley(String foldername, Action`1 FileAction) 
+   at Hacknet.Utils.ActOnAllFilesRevursivley(String foldername, Action`1 FileAction) 
+   at Hacknet.Utils.ActOnAllFilesRevursivley(String foldername, Action`1 FileAction) 
+   at Hacknet.Extensions.ExtensionLoader.LoadNewExtensionSession(ExtensionInfo info, Object os_obj) 
+   at Hacknet.OS.LoadContent() 
+   at Hacknet.ScreenManager.AddScreen(GameScreen screen, Nullable`1 controllingPlayer) 
+   at Hacknet.ScreenManager.AddScreen(GameScreen screen) 
+   at Hacknet.Misc.ExtensionTests.SetupOSForTests(String ActiveExtensionFoldername, ScreenManager
+   screenMan)
+
+   at Hacknet.Misc.ExtensionTests.TestExtensionForRuntime(ScreenManager screenMan, String path,
+   Int32& errorsAdded)

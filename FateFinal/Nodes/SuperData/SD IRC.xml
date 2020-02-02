@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="SuperDataIRC" 
+          name="SuperData IRC" 
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="Psylance" 
+          type="1" > 
+
+  <portsForCrack val="1024" />
+  <ports>22, 21</ports>
+    <IRCDaemon themeColor="0,0,255" name="SuperData IRC" needsLogin="false">
+    <user name="evelyn" color="64,224,208"/>
+    <user name="Max" color="255,255,0"/>
+    
+	<post user="evelyn">对了</post>
+  <post user="Max">什么</post>
+  <post user="evelyn">我们技术部，那款渗透测试框架马上就要开发完毕了</post>
+  <post user="evelyn">一旦发布，肯定会震惊整个网络安全界</post>
+  <post user="Max">哈哈 恭喜恭喜</post>
+  <post user="Max">不过我的邮箱密码忘记了，你们技术部星期一上班时记得帮我重置一下</post>
+  <post user="evelyn">放心，不用星期一，马上给你搞定</post>
+  <post user="evelyn">为了安全起见，我已经把你的密码重置成功了，等会儿就发到你电脑上</post>
+  <post user="Max">好的，谢谢谢谢！</post>
+  <post user="Max">对了，星期一记得来我办公室，我们人事部准备给你升职</post>
+  </IRCDaemon>
+</Computer>

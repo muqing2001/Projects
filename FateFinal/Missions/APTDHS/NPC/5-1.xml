@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="5.x">
+  <goals>
+        <goal type="getstring" target="147.80.1.123" />
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="调查BSUS" requireRank="0" >
+  #被APT-DHS标记为重要#
+</posting>
+  <email>
+    <sender>重要合同</sender>
+    <subject>调查BSUS</subject>
+    <body>
+      你好，#PLAYERNAME#。不知道你有没有听说过BSUS，对，就是那家生产硬件的厂商。我怀疑他们与SuperData有着一些不可描述的交易。</body>
+    <attachments>
+    <link comp="BSWB" />
+    </attachments>
+  </email>
+</mission>

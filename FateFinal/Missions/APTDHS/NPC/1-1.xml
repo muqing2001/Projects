@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="1.1">
+  <goals>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <posting title="加密与解密" requireRank="0" >
+  我们需要得到一份未加密的游戏源代码，Pitiedwzr，你去解决这个问题
+</posting>
+  <email>
+    <sender>Eric</sender>
+    <subject>获取一份工程项目文件</subject>
+    <body>
+      </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

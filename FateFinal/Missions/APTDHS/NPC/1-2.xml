@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="1.2">
+  <goals>
+    
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <posting title="编译源代码" requireRank="0" >
+  通过把Pitiedwzr获取到的游戏源代码进行编译，Luss，交给你了
+</posting>
+  <email>
+    <sender>Eric</sender>
+    <subject>获取一份工程项目文件</subject>
+    <body>
+      </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

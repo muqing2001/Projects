@@ -1,0 +1,22 @@
+<ConditionalActions>
+<Instantly>
+<LaunchHackScript Filepath="HackerScripts/AdesenAttack.txt" 
+                  DelayHost="APTDHS" 
+                  Delay="0" SourceComp="AdesenGateway" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+
+
+<AddIRCMessage Author="Eric" TargetComp="APTDHS" Delay="45">怎么回事？刚刚我在这边看到你的节点消失了。@#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="APTDHS" Delay="48">没什么，刚刚不小心被Adesen入侵，现在，我准备给他一个 大大的回礼。</AddIRCMessage>
+<AddIRCMessage Author="Eric" TargetComp="APTDHS" Delay="51">好，一切小心。</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="APTDHS" Delay="52">你的计算机被入侵了@#PLAYERNAME#？我刚刚在你恢复x-server.sys的时候自作主张查到了他的源头，不过我想你应该也不会怪我吧？地址如下：</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="APTDHS" Delay="55">!ATTACHMENT:link#%#Adesen--网关#%#77.84.126.23</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="APTDHS" Delay="57">不用太感谢我，我本来就是一个好人。</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="APTDHS" Delay="60">......</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="APTDHS" Delay="62">虽然我们以前有些矛盾，但我还是要说声谢谢！Kaguya！</AddIRCMessage>
+<AddMissionToHubServer MissionFilepath="Missions/APTDHS/4.xml" TargetComp="APTDHS" />
+<AddMissionToHubServer MissionFilepath="Missions/APTDHS/NPC/4-1.xml" TargetComp="APTDHS" AssignmentTag="Pitiedwzr"/>
+<AddMissionToHubServer MissionFilepath="Missions/APTDHS/NPC/4-2.xml" TargetComp="APTDHS" AssignmentTag="Luss"/>
+<AddMissionToHubServer MissionFilepath="Missions/APTDHS/NPC/4-3.xml" TargetComp="APTDHS" AssignmentTag="Kaguya"/>
+
+</Instantly>
+</ConditionalActions>
